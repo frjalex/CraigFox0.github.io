@@ -2,10 +2,10 @@
 
 require_once 'PollBot.php';
 
-define('BOT_TOKEN', 'XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
-define('BOT_WEBHOOK', 'https://bot.server/poll-bot-webhook.php');
+define('BOT_TOKEN', '187719420:AAGFC_Fbt5ysYp1CRZSPTVd9YD-QsboAEkY');
+define('BOT_WEBHOOK', 'https://CraigFox0.github.io/poll-bot-webhook.php');
 
-$bot = new PollBot(BOT_TOKEN, 'PollBotChat');
+$bot = new PollBot(BOT_TOKEN, 'Nomicsbot');
 
 if (php_sapi_name() == 'cli') {
   if ($argv[1] == 'set') {
